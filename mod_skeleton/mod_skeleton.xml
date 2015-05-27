@@ -2,8 +2,8 @@
 <extension version="2.5" type="module" client="site" method="upgrade">
 	<name>MOD_SKELETON_XML_NAME</name>
 	<author>My Name</author>
-	<creationDate>08-Oct-2013</creationDate>
-	<copyright>Copyright © 2013 My Name or My Company. All rights reserved.</copyright>
+	<creationDate>dd-MMM-YYYY</creationDate>
+	<copyright>Copyright © YYYY My Name or My Company. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>me@mydomain.com</authorEmail>
 	<authorUrl>http://www.mydomain.com</authorUrl>
