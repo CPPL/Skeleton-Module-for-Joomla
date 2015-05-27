@@ -47,6 +47,9 @@ So, for example if you have a module with this name element in the XML `<name>mo
 		languages/en-GB/en-GB.mod_newtweets.sys.ini
 		tmpl/default.php
 
+####Build Number
+Finally if you use a build process that generates a build number, as a part of your build process you can replace the token `#buildno#` in the modules XML file `VERSION` attribute.
+
 [1]: http://docs.joomla.org/Module_Development
 [2]: http://docs.joomla.org
 [3]: https://github.com/cppl/Skeleton-Module-for-Joomla/archive/master.zip
