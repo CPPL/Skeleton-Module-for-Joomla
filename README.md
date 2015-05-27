@@ -10,10 +10,16 @@ Getting started
 Download the files ([zip][3]) or fork the repository.
 
 ####Replace Module Name####
-Make a copy of the files and using your favourite editor search and replace on the following to turn it into a starting point for your module.
+Make a copy of the files and using your favourite editor search and replace on the following to turn it into a starting point for your module. (NB. these are _case sensitive_ search and replaces, also if you do it in the order listed it will make life easier)
 
+- `MOD_SKELETON` should be replaced by your modules prefix<br />(usually based on the name e.g. `MOD_NEWTWEETS`)
 - `skeleton` should be replaced by your modules name<br />(usually something indicative of the functionality e.g. `newtweets`)
+- `Skeleton` should be replaced by your modules name<br />(e.g. `New Tweets`)
 - `SKELETON` should also be replaced by your modules name
+- `© YYYY My Name or My Company` should be replaced by the appropriate information e.g. `© 2015 Craig Phillips Pty Ltd`
+- `My Name`  should be replaced by the appropriate information e.g. `Craig Phillips`
+- `dd-MMM-YYYY` should be replaced with the current date e.g. 25-May-2015
+- `dd-mm-YYYY`  should be replaced with the current date e.g. 25-05-2015
 
 [Modules][1] are discussed on the [Joomla Doc's website][2].
 
@@ -22,8 +28,8 @@ For a module the top-level folder, and each of the files must follow a naming co
 
 	/mod_skeleton/
 		helper.php
-		skeleton.php
-		skeleton.xml
+		mod_skeleton.php
+		mod_skeleton.xml
 		languages/en-GB/en-GB.mod_skeleton.ini
 		languages/en-GB/en-GB.mod_skeleton.sys.ini
 		tmpl/default.php
@@ -35,8 +41,8 @@ So, for example if you have a module with this name element in the XML `<name>mo
 
 	/mod_newtweets/
 		helper.php
-		newtweets.php
-		newtweets.xml
+		mod_newtweets.php
+		mod_newtweets.xml
 		languages/en-GB/en-GB.mod_newtweets.ini
 		languages/en-GB/en-GB.mod_newtweets.sys.ini
 		tmpl/default.php
