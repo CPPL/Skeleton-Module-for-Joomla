@@ -9,7 +9,7 @@
 // No direct access
 defined('_JEXEC') or die;
 
-// Include the weblinks functions only once
+// Include the helper functions only once
 require_once dirname(__FILE__) . '/helper.php';
 
 $fileList = modSkeletonHelper::getList($params);
